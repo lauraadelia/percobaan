@@ -1,0 +1,55 @@
+CRITICAL - 2022-04-11 00:39:32 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\WORK\Documents\dika\ci4\tutorukk\spark(45): require('C:\\Users\\WORK\\D...')
+#4 {main}
+CRITICAL - 2022-04-11 12:12:28 --> Undefined array key "Result"
+#0 C:\Users\WORK\Documents\dika\ci4\tutorukk\app\Views\dashboard.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 88)
+#1 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\View\View.php(210): include('C:\\Users\\WORK\\D...')
+#2 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\WORK\Documents\dika\ci4\tutorukk\app\Controllers\Home.php(13): view('dashboard', Array)
+#5 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\WORK\Documents\dika\ci4\tutorukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#10 {main}
+CRITICAL - 2022-04-11 12:12:57 --> Undefined array key "Result"
+#0 C:\Users\WORK\Documents\dika\ci4\tutorukk\app\Views\dashboard.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 88)
+#1 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\View\View.php(210): include('C:\\Users\\WORK\\D...')
+#2 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\WORK\Documents\dika\ci4\tutorukk\app\Controllers\Home.php(13): view('dashboard', Array)
+#5 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\WORK\Documents\dika\ci4\tutorukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#10 {main}
+CRITICAL - 2022-04-11 12:19:12 --> Undefined variable $user
+#0 C:\Users\WORK\Documents\dika\ci4\tutorukk\app\Views\layout\main.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\WORK\\D...', 73)
+#1 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\View\View.php(210): include('C:\\Users\\WORK\\D...')
+#2 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\View\View.php(226): CodeIgniter\View\View->render('layout/main', Array, true)
+#4 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\Common.php(1089): CodeIgniter\View\View->render('isidata', Array, true)
+#5 C:\Users\WORK\Documents\dika\ci4\tutorukk\app\Controllers\Isidata.php(9): view('isidata')
+#6 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(832): App\Controllers\Isidata->index()
+#7 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Isidata))
+#8 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\WORK\Documents\dika\ci4\tutorukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#11 {main}
+CRITICAL - 2022-04-11 12:47:32 --> Undefined array key 0
+#0 C:\Users\WORK\Documents\dika\ci4\tutorukk\app\Views\dashboard.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 48)
+#1 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\View\View.php(210): include('C:\\Users\\WORK\\D...')
+#2 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\WORK\Documents\dika\ci4\tutorukk\app\Controllers\Home.php(15): view('dashboard', Array)
+#5 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\WORK\Documents\dika\ci4\tutorukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\WORK\Documents\dika\ci4\tutorukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#10 {main}
